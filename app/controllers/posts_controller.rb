@@ -14,7 +14,6 @@ class PostsController < ApplicationController
     Post.create(content: params[:content])
     # フォームから送信されたパラメーターを利用して、createメソッドの引数に記述.
     # これで、保存の処理は完成
-
   end
  
  end
